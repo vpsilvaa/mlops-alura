@@ -1,0 +1,35 @@
+Passos importantes
+
+* Instalar o Cookiecutter;
+* Utilizar um padrão de repositório da comunidade de Data Science;
+* Estruturar um projeto de Data Science e Flask;
+* Criar um repositório no GitHub;
+* Enviar arquivos para o GitHub.
+
+Comandos no Linux da VM no GCP:
+
+Primeiro instanciar a máquina no GCP
+Depois liberar porta específica no firewall
+
+- sudo apt-get update
+- sudo apt-fet- install git-all
+- git clone http...
+- sudo apt-get install python3-pip
+- pip3 install virtualenv --user
+- virtualenv venv
+- source venv/bin/activate
+- pip3 install -r requirements.txt
+- export BASIC_AUTH_USERNAME=admin
+- export BASIC_AUTH_PASSWORD=senha
+
+
+DOCKER:
+
+- docker build -t ml-api --build-arg BASIC_AUTH_USERNAME_ARG=admin --build-arg BASIC_AUTH_PASSWORD_ARG=teste123 .
+- docker run -p 8080:8080 ml-api
+
+No terminal:
+
+- gcloud auth configure-docker
+- docker tag ml-api gcr.io/~nomeprojeto~/ml-api
+- docker push gcr.io/~nomeprojeto~/ml-api

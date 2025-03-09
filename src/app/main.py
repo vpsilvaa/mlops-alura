@@ -8,7 +8,7 @@ import os
 
 #pip install -r requirements.txt
 
-model = pickle.load(open('../../models/model.sav', 'rb'))
+model = pickle.load(open('models/model.sav', 'rb'))
 
 columns = ['tamanho', 'ano', 'garagem']
 
@@ -70,5 +70,6 @@ def preco():
     valor = model.predict([input])
     return jsonify(preco = valor[0])
 
-app.run(host="0.0.0.0", port=8080, debug=True)
+if __name__ == __main__:
+    app.run(host="0.0.0.0", port=8080, debug=True)
 
