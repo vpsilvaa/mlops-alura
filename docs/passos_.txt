@@ -1,4 +1,4 @@
-Passos importantes
+Passos importantes:
 
 * Instalar o Cookiecutter;
 * Utilizar um padrão de repositório da comunidade de Data Science;
@@ -6,6 +6,32 @@ Passos importantes
 * Criar um repositório no GitHub;
 * Enviar arquivos para o GitHub.
 
+* Criar conta no GCP;
+* Criar um servidor no Google Compute Engine;
+* Configurar um servidor Flask;
+* Liberar regras de Firewall no Compute Engine;
+* Executar uma aplicação Flask em um servidor no GCP.
+
+* Utilizar o gcloud sdk;
+* Usar arquivos yaml;
+* Criar variáveis de ambiente no App Engine;
+* Deploy de uma aplicação com App Engine;
+* Acessar uma aplicação no App Engine.
+
+* Criar um Dockerfile;
+* Variáveis de ambiente no Docker;
+* Construir containers Docker;
+* Enviar imagens Docker para o Container Registry do Google;
+* Executar um container Docker no Google Cloud Run.
+
+* Utilizar o GitHub Actions;
+* Criar o yaml do GitHub Actions;
+* Integrar o Cloud Run ao GitHub Actions;
+* Criar uma service account;
+* Criar secretes no GitHub Actions;
+* Ativar uma pipeline de entrega contínua.
+
+---------------------------------------------------------------------------------------
 Comandos no Linux da VM no GCP:
 
 Primeiro instanciar a máquina no GCP
